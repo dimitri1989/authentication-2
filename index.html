@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>authentication</title>
+</head>
+<body>
+    <div class="container">
+        <img class="Triangle" src="img/Triangle with Circle.svg" alt="">
+        <img class="Double-Square" src="img/Double Square.svg" alt="">
+        <img class="Double-Square-1" src="img/Double Square1.svg" alt="">
+        <img class="Circle-with-Triangle" src="img/Circle with Triangle.svg" alt="">
+        <div class="authentication__title">Log In</div>
+        <div class="authentication">
+   
+            
+            <div class="authentication__meil">
+                <form onsubmit="return validacia()">
+                    <label for="Email">Email</label>
+                    <div class="email-div">
+                    <img class="email-div-img" src="img/icons/Layer 2.png" alt="">
+                    <img class="email-div-line" src="img/icons/Line 1.svg" alt="">
+                    <input type="Email" id="Email" name="Email"><br>
+                    <p id="sworia"></p>
+                    </div>
+                    <label for="password">Password</label>
+                    <div class="email-div">
+                    <img class="email-div-img" src="img/icons/pasword.svg" alt="">
+                    <img class="email-div-line" src="img/icons/Line 1.svg" alt="">
+                    <input type="password" id="Password" name="password" class="pasw">
+                    <p id="shecdoma"></p>
+                    
+                    </div>
+                    <div class="Forget">Forget password?</div>
+                    <input type="submit" value="Log In" id="submit">
+                  </form>
+            </div>
+        </div>
+        <div class="social">
+            <p id="result"></p>
+            <h2 class="social__or">
+                <div class="social__line"></div>
+                <div class="social__text">Or</div>
+                <div class="social__line"></div>
+            </h2>
+            <div class="social__icons">
+                <img class="google" src="img/icons/Google.svg" alt="facebook">
+                <img class="facebook" src="img/icons/Facebook (1).svg" alt="facebook">
+                <img class="apple" src="img/icons/Apple.svg" alt="apple">
+                
+            </div>
+            <div class="up">
+                <div class="social__text">Don’t have an account? </div>
+                <div class="up__link">Sing Up</div>
+            </div>
+        </div>
+ 
+    </div>
+   
+</body>
+</html>
